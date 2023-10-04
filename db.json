@@ -27,7 +27,7 @@
       ],
       "listOfPrescriptionRecords": [
         {
-          "createdDate": "1999-09-16T15:30:00",
+          "createdDate": "1999-09-16 15:30:00",
           "medicationName": "Panadol",
           "medicationQuantity": 3,
           "dosage": 1,
@@ -37,7 +37,7 @@
           "prescriptionStatusEnum": "UNCOLLECTED"
         },
         {
-          "createdDate": "2000-03-10T14:45:00",
+          "createdDate": "2000-03-10 14:45:00",
           "medicationName": "Aspirin",
           "medicationQuantity": 2,
           "dosage": 1,
@@ -51,14 +51,14 @@
         {
           "description": "AIDs",
           "createdBy": "Doctor Wen Jie",
-          "createdDate": "1999-09-16T15:30:00",
+          "createdDate": "1999-09-16 15:30:00",
           "priorityEnum": "HIGH",
           "problemTypeEnum": "INFECTIOUS_DISEASES"
         },
         {
           "description": "Diabetes",
           "createdBy": "Doctor Sarah Smith",
-          "createdDate": "2001-05-20T09:15:00",
+          "createdDate": "2001-05-20 09:15:00",
           "priorityEnum": "MEDIUM",
           "problemTypeEnum": "ALLERGIES_AND_IMMUNOLOGIC"
         }
@@ -67,16 +67,16 @@
         {
           "description": "Smoking",
           "createdBy": "Doctor Wen Jie",
-          "createdDate": "1998-09-16T15:30:00",
-          "resolvedDate": "1999-09-16T15:30:00",
+          "createdDate": "1998-09-16 15:30:00",
+          "resolvedDate": "1999-09-16 15:30:00",
           "priorityEnum": "LOW",
           "problemTypeEnum": "OTHERS"
         },
         {
           "description": "Allergies to Pollen",
           "createdBy": "Doctor Sarah Smith",
-          "createdDate": "2000-08-05T11:30:00",
-          "resolvedDate": "2001-03-15T13:45:00",
+          "createdDate": "2000-08-05 11:30:00",
+          "resolvedDate": "2001-03-15 13:45:00",
           "priorityEnum": "HIGH",
           "problemTypeEnum": "ALLERGIES_AND_IMMUNOLOGIC"
         }
@@ -86,8 +86,8 @@
           "description": "Dialysis",
           "primaryDoctor": "Doctor Wen Jie",
           "secondaryDoctors": [],
-          "startDate": "1998-09-16T15:30:00",
-          "endDate": "1999-09-16T15:30:00",
+          "startDate": "1998-09-16 15:30:00",
+          "endDate": "1999-09-16 15:30:00",
           "treatmentPlanTypeEnum": "PREVENTIVE_CARE_PLAN"
         }
       ]
@@ -115,7 +115,7 @@
       ],
       "listOfPrescriptionRecords": [
         {
-          "createdDate": "2005-07-25T16:30:00",
+          "createdDate": "2005-07-25 16:30:00",
           "medicationName": "Antibiotics",
           "medicationQuantity": 4,
           "dosage": 2,
@@ -129,7 +129,7 @@
         {
           "description": "Hypertension",
           "createdBy": "Doctor Emily Wong",
-          "createdDate": "2006-02-14T08:45:00",
+          "createdDate": "2006-02-14 08:45:00",
           "priorityEnum": "MEDIUM",
           "problemTypeEnum": "CARDIOVASCULAR"
         }
@@ -138,8 +138,8 @@
         {
           "description": "High Cholesterol",
           "createdBy": "Doctor Emily Wong",
-          "createdDate": "2004-06-10T09:30:00",
-          "resolvedDate": "2005-08-20T12:15:00",
+          "createdDate": "2004-06-10 09:30:00",
+          "resolvedDate": "2005-08-20 12:15:00",
           "priorityEnum": "HIGH",
           "problemTypeEnum": "CARDIOVASCULAR"
         }
