@@ -49,9 +49,9 @@ server.post("/records", (req, res) => {
     });
   }
 
-  // records.push(newRecord);
+  records.push(newRecord);
 
-  // router.db.set("records", records).write();
+  router.db.set("records", records).write();
 
   res.status(200).json(newRecord);
 });
