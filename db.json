@@ -31,20 +31,31 @@
           "medicationName": "Panadol",
           "medicationQuantity": 3,
           "dosage": 1,
+          "inventoryItem": null,
           "description": "Pain Relief for Headache",
           "comments": "Stop when symptoms are gone",
           "prescribedBy": "Doctor Wen Jie",
-          "prescriptionStatusEnum": "UNCOLLECTED"
+          "prescriptionStatusEnum": "ONGOING",
+          "medication": {
+            "inventoryItemId": 6,
+            "inventoryItemName": "Paracetamol 500 mg Tablets",
+            "inventoryItemDescription": "500mg per piece",
+            "itemTypeEnum": "MEDICINE",
+            "retailPricePerQuantity": 10,
+            "restockPricePerQuantity": 10,
+            "quantityInStock": 98
+          }
         },
         {
           "createdDate": "2000-03-10 14:45:00",
           "medicationName": "Aspirin",
           "medicationQuantity": 2,
           "dosage": 1,
+          "inventoryItem": null,
           "description": "Pain Relief for Backache",
           "comments": "Take with food",
           "prescribedBy": "Doctor Sarah Smith",
-          "prescriptionStatusEnum": "COLLECTED"
+          "prescriptionStatusEnum": "ONGOING"
         }
       ],
       "listOfProblemRecords": [
@@ -73,7 +84,7 @@
           "problemTypeEnum": "OTHERS"
         },
         {
-          "description": "Allergies to Pollen",
+          "description": "AMOXICILLIN",
           "createdBy": "Doctor Sarah Smith",
           "createdDate": "2000-08-05 11:30:00",
           "resolvedDate": "2001-03-15 13:45:00",
@@ -119,10 +130,20 @@
           "medicationName": "Antibiotics",
           "medicationQuantity": 4,
           "dosage": 2,
+          "inventoryItem": null,
           "description": "Infection Treatment",
           "comments": "Complete the course",
           "prescribedBy": "Doctor Emily Wong",
-          "prescriptionStatusEnum": "COLLECTED"
+          "prescriptionStatusEnum": "ONGOING",
+          "medication": {
+            "inventoryItemId": 6,
+            "inventoryItemName": "Paracetamol 500 mg Tablets",
+            "inventoryItemDescription": "500mg per piece",
+            "itemTypeEnum": "MEDICINE",
+            "retailPricePerQuantity": 10,
+            "restockPricePerQuantity": 10,
+            "quantityInStock": 98
+          }
         }
       ],
       "listOfProblemRecords": [
@@ -144,6 +165,7 @@
           "problemTypeEnum": "CARDIOVASCULAR"
         }
       ]
+    
     }
   ]
 }
