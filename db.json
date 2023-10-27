@@ -35,14 +35,14 @@
           "description": "Pain Relief for Headache",
           "comments": "Stop when symptoms are gone",
           "prescribedBy": "Doctor Wen Jie",
-          "prescriptionStatusEnum": "UNCOLLECTED",
+          "prescriptionStatusEnum": "ONGOING",
           "medication": {
             "inventoryItemId": 6,
             "inventoryItemName": "Paracetamol 500 mg Tablets",
             "inventoryItemDescription": "500mg per piece",
             "itemTypeEnum": "MEDICINE",
-            "retailPricePerQuantity": 10.00,
-            "restockPricePerQuantity": 10.00,
+            "retailPricePerQuantity": 10,
+            "restockPricePerQuantity": 10,
             "quantityInStock": 98
           }
         },
@@ -55,7 +55,7 @@
           "description": "Pain Relief for Backache",
           "comments": "Take with food",
           "prescribedBy": "Doctor Sarah Smith",
-          "prescriptionStatusEnum": "COLLECTED"
+          "prescriptionStatusEnum": "ONGOING"
         }
       ],
       "listOfProblemRecords": [
@@ -134,14 +134,14 @@
           "description": "Infection Treatment",
           "comments": "Complete the course",
           "prescribedBy": "Doctor Emily Wong",
-          "prescriptionStatusEnum": "COLLECTED",
+          "prescriptionStatusEnum": "ONGOING",
           "medication": {
             "inventoryItemId": 6,
             "inventoryItemName": "Paracetamol 500 mg Tablets",
             "inventoryItemDescription": "500mg per piece",
             "itemTypeEnum": "MEDICINE",
-            "retailPricePerQuantity": 10.00,
-            "restockPricePerQuantity": 10.00,
+            "retailPricePerQuantity": 10,
+            "restockPricePerQuantity": 10,
             "quantityInStock": 98
           }
         }
