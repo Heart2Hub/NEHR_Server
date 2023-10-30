@@ -71,7 +71,7 @@
           "createdBy": "Doctor Sarah Smith",
           "createdDate": "2001-05-20 09:15:00",
           "priorityEnum": "MEDIUM",
-          "problemTypeEnum": "ALLERGIES_AND_IMMUNOLOGIC"
+          "problemTypeEnum": "HEPATIC_AND_PANCREATIC"
         }
       ],
       "listOfMedicalHistoryRecords": [
