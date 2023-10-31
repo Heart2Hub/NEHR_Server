@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node server.js"
+    "server": "node server.js --watch db.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chokidar": "^3.5.3",
     "json-server": "^0.17.3",
     "moment": "^2.29.4"
   }
