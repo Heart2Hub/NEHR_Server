@@ -1,6 +1,7 @@
 {
   "records": [
     {
+      "electronicHealthRecordNehrId":"e2b88fb5-6c3d-4042-9076-f4a7fb0eb269",
       "nric": "S9983422D",
       "firstName": "Adam",
       "lastName": "Lai",
@@ -11,22 +12,29 @@
       "nationality": "Singaporean",
       "address": "Pasir Ris St 42",
       "contactNumber": "81348699",
+      "listOfSubsidies": [],
+      "listOfPastAdmissions": [],
+      "listOfPastAppointments": [],
       "listOfNextOfKinRecords": [
         {
+          "nextOfKinRecordNehrId":"01fba39b-2a2a-4875-a5f3-2c8f19ca326b",
           "relationship": "Father",
           "nric": "S5882617D"
         },
         {
+          "nextOfKinRecordNehrId":"68239158-2963-4fad-953e-45885fcdab0e",
           "relationship": "Mother",
           "nric": "S6882617D"
         },
         {
+          "nextOfKinRecordNehrId":"ba732b79-59c5-40e9-9e7b-839f6b5726e8",
           "relationship": "Brother",
           "nric": "S7882617D"
         }
       ],
       "listOfPrescriptionRecords": [
         {
+          "prescriptionRecordNehrId":"5f2096b9-a08e-49bb-8ac9-03717b19051e",
           "createdDate": "1999-09-16 15:30:00",
           "medicationName": "Panadol",
           "medicationQuantity": 3,
@@ -34,21 +42,27 @@
           "description": "Pain Relief for Headache",
           "comments": "Stop when symptoms are gone",
           "prescribedBy": "Doctor Wen Jie",
-          "prescriptionStatusEnum": "UNCOLLECTED"
+          "prescriptionStatusEnum": "ONGOING",
+          "lastCollectedDate": "1999-09-17 15:30:00",
+          "expirationDate": "2000-09-16 15:30:00"
         },
         {
+          "prescriptionRecordNehrId":"41209bdd-991b-4aea-989a-f55e5ff24764",
           "createdDate": "2000-03-10 14:45:00",
-          "medicationName": "Aspirin",
+          "medicationName": "Paracetamol 500 mg Tablets",
           "medicationQuantity": 2,
           "dosage": 1,
           "description": "Pain Relief for Backache",
           "comments": "Take with food",
           "prescribedBy": "Doctor Sarah Smith",
-          "prescriptionStatusEnum": "COLLECTED"
+          "prescriptionStatusEnum": "ONGOING",
+          "lastCollectedDate": "2000-03-11 14:45:00",
+          "expirationDate": "2001-03-10 14:45:00"
         }
       ],
       "listOfProblemRecords": [
         {
+          "problemRecordNehrId":"f5837418-5944-43f8-9046-ca03f60bc18c",
           "description": "AIDs",
           "createdBy": "Doctor Wen Jie",
           "createdDate": "1999-09-16 15:30:00",
@@ -56,15 +70,17 @@
           "problemTypeEnum": "INFECTIOUS_DISEASES"
         },
         {
+          "problemRecordNehrId":"426d0be0-0b26-48dd-a6e2-c5d8e8d78c3c",
           "description": "Diabetes",
           "createdBy": "Doctor Sarah Smith",
           "createdDate": "2001-05-20 09:15:00",
           "priorityEnum": "MEDIUM",
-          "problemTypeEnum": "ALLERGIES_AND_IMMUNOLOGIC"
+          "problemTypeEnum": "HEPATIC_AND_PANCREATIC"
         }
       ],
       "listOfMedicalHistoryRecords": [
         {
+          "medicalHistoryRecordNehrId":"9e6ec4f0-bda2-43f0-acd4-616ce8d1693c",
           "description": "Smoking",
           "createdBy": "Doctor Wen Jie",
           "createdDate": "1998-09-16 15:30:00",
@@ -73,7 +89,8 @@
           "problemTypeEnum": "OTHERS"
         },
         {
-          "description": "Allergies to Pollen",
+          "medicalHistoryRecordNehrId":"ff799705-3186-48fa-b848-b40ad34d2d21",
+          "description": "AMOXICILLIN",
           "createdBy": "Doctor Sarah Smith",
           "createdDate": "2000-08-05 11:30:00",
           "resolvedDate": "2001-03-15 13:45:00",
@@ -83,6 +100,7 @@
       ],
       "listOfTreatmentPlanRecords": [
         {
+          "treatmentPlanRecordNehrId":"41ac86cc-5416-4c96-b25a-a0f203ec345c",
           "description": "Dialysis",
           "primaryDoctor": "Doctor Wen Jie",
           "secondaryDoctors": [],
@@ -93,6 +111,7 @@
       ]
     },
     {
+      "electronicHealthRecordNehrId":"252cd42f-747f-4327-8c04-476dc763d941",
       "nric": "S9983423D",
       "firstName": "Eva",
       "lastName": "Tan",
@@ -103,18 +122,24 @@
       "nationality": "Singaporean",
       "address": "Orchard Road",
       "contactNumber": "82236471",
+      "listOfSubsidies": [],
+      "listOfPastAdmissions": [],
+      "listOfPastAppointments": [],
       "listOfNextOfKinRecords": [
         {
+          "nextOfKinRecordNehrId":"41da45db-e63a-449a-aab7-5ff6ab70b151",
           "relationship": "Husband",
           "nric": "S5882618D"
         },
         {
+          "nextOfKinRecordNehrId":"2000bf1b-4ab8-4b88-96a1-b25595e7c340",
           "relationship": "Sister",
           "nric": "S6882618D"
         }
       ],
       "listOfPrescriptionRecords": [
         {
+          "prescriptionRecordNehrId":"cd06d79d-85d3-455a-8525-d98db22671d0",
           "createdDate": "2005-07-25 16:30:00",
           "medicationName": "Antibiotics",
           "medicationQuantity": 4,
@@ -122,11 +147,14 @@
           "description": "Infection Treatment",
           "comments": "Complete the course",
           "prescribedBy": "Doctor Emily Wong",
-          "prescriptionStatusEnum": "COLLECTED"
+          "lastCollectedDate": "2005-07-26 16:30:00",
+          "prescriptionStatusEnum": "ONGOING",
+          "expirationDate": "2006-07-25 16:30:00"
         }
       ],
       "listOfProblemRecords": [
         {
+          "problemRecordNehrId":"a99fc605-7640-4ff9-babb-214c847c059b",
           "description": "Hypertension",
           "createdBy": "Doctor Emily Wong",
           "createdDate": "2006-02-14 08:45:00",
@@ -136,6 +164,7 @@
       ],
       "listOfMedicalHistoryRecords": [
         {
+          "medicalHistoryRecordNehrId":"fffe3740-5b8c-4a5a-bba0-aaac8d84b1c4",
           "description": "High Cholesterol",
           "createdBy": "Doctor Emily Wong",
           "createdDate": "2004-06-10 09:30:00",
@@ -143,7 +172,8 @@
           "priorityEnum": "HIGH",
           "problemTypeEnum": "CARDIOVASCULAR"
         }
-      ]
+      ],
+      "listOfTreatmentPlanRecords": []
     }
   ]
 }

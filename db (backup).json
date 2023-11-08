@@ -42,18 +42,22 @@
           "description": "Pain Relief for Headache",
           "comments": "Stop when symptoms are gone",
           "prescribedBy": "Doctor Wen Jie",
-          "prescriptionStatusEnum": "UNCOLLECTED"
+          "prescriptionStatusEnum": "ONGOING",
+          "lastCollectedDate": "1999-09-17 15:30:00",
+          "expirationDate": "2000-09-16 15:30:00"
         },
         {
           "prescriptionRecordNehrId":"41209bdd-991b-4aea-989a-f55e5ff24764",
           "createdDate": "2000-03-10 14:45:00",
-          "medicationName": "Aspirin",
+          "medicationName": "Paracetamol 500 mg Tablets",
           "medicationQuantity": 2,
           "dosage": 1,
           "description": "Pain Relief for Backache",
           "comments": "Take with food",
           "prescribedBy": "Doctor Sarah Smith",
-          "prescriptionStatusEnum": "COLLECTED"
+          "prescriptionStatusEnum": "ONGOING",
+          "lastCollectedDate": "2000-03-11 14:45:00",
+          "expirationDate": "2001-03-10 14:45:00"
         }
       ],
       "listOfProblemRecords": [
@@ -71,7 +75,7 @@
           "createdBy": "Doctor Sarah Smith",
           "createdDate": "2001-05-20 09:15:00",
           "priorityEnum": "MEDIUM",
-          "problemTypeEnum": "ALLERGIES_AND_IMMUNOLOGIC"
+          "problemTypeEnum": "HEPATIC_AND_PANCREATIC"
         }
       ],
       "listOfMedicalHistoryRecords": [
@@ -86,7 +90,7 @@
         },
         {
           "medicalHistoryRecordNehrId":"ff799705-3186-48fa-b848-b40ad34d2d21",
-          "description": "Allergies to Pollen",
+          "description": "AMOXICILLIN",
           "createdBy": "Doctor Sarah Smith",
           "createdDate": "2000-08-05 11:30:00",
           "resolvedDate": "2001-03-15 13:45:00",
@@ -143,7 +147,9 @@
           "description": "Infection Treatment",
           "comments": "Complete the course",
           "prescribedBy": "Doctor Emily Wong",
-          "prescriptionStatusEnum": "COLLECTED"
+          "lastCollectedDate": "2005-07-26 16:30:00",
+          "prescriptionStatusEnum": "ONGOING",
+          "expirationDate": "2006-07-25 16:30:00"
         }
       ],
       "listOfProblemRecords": [
