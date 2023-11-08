@@ -1,5 +1,7 @@
 const moment = require("moment");
 const { PORT_NUM } = require("./constants/PortNum");
+const chokidar = require("chokidar");
+
 const jsonServer = require("json-server");
 
 const SECRET_KEY = require("./constants/SecretKey");
@@ -69,6 +71,11 @@ server.get("/records/:nric", (req, res) => {
   }
 });
 
+server.get("/records", (req, res) => {
+  const records = router.db.get("records").value();
+  res.json(records);
+});
+
 server.post("/records", (req, res) => {
   const newRecord = req.body;
 
@@ -80,6 +87,7 @@ server.post("/records", (req, res) => {
     });
   }
 
+  // records.push(newRecord);
   // records.push(newRecord);
 
   // router.db.set("records", records).write();
